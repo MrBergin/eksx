@@ -4,10 +4,9 @@ plugins {
 
 repositories {
     mavenCentral()
-    mavenLocal()
 }
 
 dependencies {
-    implementation(project(":eksx"))
+    implementation("dev.mrbergin:eksx:0.0.1")
     implementation(Libs.fabric8KubernetesClient)
 }

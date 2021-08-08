@@ -1,5 +1,4 @@
-![TeamCity Full Build Status](https://img.shields.io/teamcity/build/s/Result4kKotestMatchers_Build?server=https%3A%2F%2Fmrbergin.beta.teamcity.com&style=for-the-badge)
-![TeamCity Coverage](https://img.shields.io/teamcity/coverage/Result4kKotestMatchers_Build?server=https%3A%2F%2Fmrbergin.beta.teamcity.com&style=for-the-badge)
+![TeamCity Full Build Status](https://img.shields.io/teamcity/build/s/eksx_Build?server=https%3A%2F%2Fmrbergin.beta.teamcity.com&style=for-the-badge)
 
 # EksX
 
@@ -15,7 +14,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    testImplementation("dev.mrbergin:eksx:0.0.1")
+    implementation("dev.mrbergin:eksx:0.0.1")
 }
 ```
 

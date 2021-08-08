@@ -85,7 +85,7 @@ publishing {
     }
 }
 
-/*signing {
+signing {
     useInMemoryPgpKeys(signingKeyId, signingKey, signingPassword)
     sign(publishing.publications["maven"])
-}*/
+}
