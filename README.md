@@ -7,6 +7,10 @@ line:
 
 https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/get-token.html
 
+Heavily inspired from the wonderful answer I found on this topic here:
+
+https://stackoverflow.com/questions/59853623/get-authentication-token-from-aws-eks-using-the-aws-java-sdk-v2
+
 ## Example Gradle usage:
 
 ```kotlin
