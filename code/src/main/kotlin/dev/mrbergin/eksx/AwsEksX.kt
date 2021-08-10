@@ -55,7 +55,6 @@ class AwsEksX(
             .presign(request, presignerParams)
             .uri
             .toString()
-            .also(::println)
             .toByteArray()
 
         val encodedUrl = Base64.getUrlEncoder()
